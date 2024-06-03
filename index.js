@@ -27,11 +27,22 @@ const questions = [
 ]
 
 
-function init() {
-    inquirer.prompt(questions).then((answers) => {
-        
-      });
+function writeToFile(fileName, data) {
+    
+    fs.writeFile(`${data.title.replace(/\s+/g, '_')}_${fileName}.md`, readMeCreator.generateMarkdown(data), (error) => {
+      if (error) {
+        console.log(error);
+      }
+    });
 }
+
+// TODO: Create a function to initialize app
+function init() {
+inquirer.prompt(questions).then((answers) => {
+    writeToFile('README', answers)
+  });
+}
+
 
 // Function call to initialize app
 init();
