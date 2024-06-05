@@ -53,10 +53,10 @@ inquirer.prompt(questions).then(({text, shape, backgorund, textColor}) => {
 
     const svgCreate = new Logo();
 
-    svgCreate.setText(text, textColor);
+    svgCreate.setText(textColor, text);
     svgCreate.setShape(shapeLogo);
 
-    fs.writeFile(`./examples/${text}_logo.svg`, svgCreate.render(), (error) => {
+    fs.writeFile(`./examples/${text}-logo.svg`, svgCreate.render(), (error) => {
         if (error) {
           console.log(error);
         }
