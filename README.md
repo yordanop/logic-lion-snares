@@ -2,7 +2,11 @@
   
   ## Description
 
-  This is an application run on command to generate svg files with a simple logo
+  This is an command-line application to generate svg files with a simple logo.
+
+  https://drive.google.com/file/d/1B0cUwZS4rHGrr8Z4M5DrjG0pm0dE2ZXp/view
+
+  ![Screenshot with command app run and logo generated](./assets/Usage_screenshot.png)
 
   ## Questions
 
@@ -23,11 +27,11 @@ You need npm and from npm you need to install inquirer
 
 ## Usage
 
-the app will ask for the basic info it need to generate the files
+the app will ask for the background color, text shape and the color for the shape
 
 ## Credits
 
-my instructor
+Instructor Chris and Alejandra Acosta
 
 ## License
 
@@ -38,10 +42,7 @@ my instructor
 
 ## Features
 
-simple and light application
+Simple and light application
 
-## How to Contribute
-
-Contact me
 
   
