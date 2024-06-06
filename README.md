@@ -4,7 +4,7 @@
 
   This is an command-line application to generate svg files with a simple logo.
 
-  https://drive.google.com/file/d/1B0cUwZS4rHGrr8Z4M5DrjG0pm0dE2ZXp/view
+  https://drive.google.com/file/d/1zNBT1dReGiXQU6QkOREOJtp3T8jfj3xl/view
 
   ![Screenshot with command app run and logo generated](./assets/Usage_screenshot.png)
 
